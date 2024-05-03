@@ -19,7 +19,7 @@ public class ThreadCreation {
 		System.out.println("Current Thread " + Thread.currentThread().getName());
 		
 		
-		Thread s = new ThreadClass();
+		Thread s = new ThreadClass(); // By Creating a new Class that extends Thread Class
 		s.start();
 		
 	}
